@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node db.js"
+    "start": "node dbConnect.js"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
