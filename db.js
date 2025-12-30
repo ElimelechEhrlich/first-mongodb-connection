@@ -2,7 +2,7 @@ import { config } from "dotenv"
 import { MongoClient } from "mongodb"
 config()
 
-const client = new MongoClient(process.env.DB_CONECTION)
+const client = new MongoClient(process.env.DB_CONNECTION)
 
 await client.connect();
 
